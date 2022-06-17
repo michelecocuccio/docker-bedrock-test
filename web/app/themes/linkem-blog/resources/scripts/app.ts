@@ -3,7 +3,7 @@ import {domReady} from '@roots/sage/client';
 /**
  * app.main
  */
-const main = async (err) => {
+const main = async (err: Error) => {
   if (err) {
     // handle hmr errors
     console.error(err);

@@ -4,7 +4,7 @@ import {registerBlockStyle, unregisterBlockStyle} from '@wordpress/blocks';
 /**
  * editor.main
  */
-const main = (err) => {
+const main = (err: Error) => {
   if (err) {
     // handle hmr errors
     console.error(err);

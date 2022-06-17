@@ -1,13 +1,9 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-  },
   root: true,
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   extends: [
-    require.resolve('@roots/sage/eslint-config'),
+    require.resolve('@roots/eslint-config/sage'),
     'plugin:@typescript-eslint/recommended',
   ],
   rules: {
